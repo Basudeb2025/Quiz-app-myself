@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+     android:background="@drawable/backround"
+    tools:context=".MainActivity">
+  <TextView
+      android:layout_width="match_parent"
+      android:layout_height="wrap_content"
+      android:text="Welcome to this page"
+      android:textSize="30dp"
+      android:textStyle="bold"
+      android:layout_margin="10dp"
+      android:textColor="?attr/colorPrimaryVariant"
+     />
+    <com.google.android.material.textfield.TextInputLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+         android:layout_marginTop="180dp"
+        app:boxCornerRadiusBottomStart="40dp"
+        app:boxCornerRadiusTopEnd="20dp"
+        >
+        <com.google.android.material.textfield.TextInputEditText
+            android:layout_width="match_parent"
+            android:layout_height="55dp"
+            android:id="@+id/txt"
+            android:layout_marginStart="10dp"
+            android:layout_marginEnd="20dp"
+            android:hint="Enter your name"
+
+            android:textColorHint="?attr/colorError"
+            />
+    </com.google.android.material.textfield.TextInputLayout>
+   <Button
+       android:id="@+id/btn"
+       android:layout_width="match_parent"
+       android:layout_height="35dp"
+       android:text="click here"
+       android:textSize="10dp"
+       android:layout_marginStart="20dp"
+       android:layout_marginEnd="20dp"
+       android:background="@drawable/bt"
+       android:layout_marginTop="20dp"
+       />
+    <Button
+        android:id="@+id/fbtn"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:text="Click for finish"
+        android:textSize="10dp"
+        android:layout_marginStart="70dp"
+        android:layout_marginEnd="70dp"
+        android:background="@drawable/bt"
+        android:layout_marginTop="25dp"
+        />
+    <Button
+        android:id="@+id/about"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="About"
+        android:layout_marginTop="100dp"
+        android:textColor="@color/teal_200"
+        android:layout_gravity="center"
+        android:background="@drawable/about"
+        />
+
+</LinearLayout>

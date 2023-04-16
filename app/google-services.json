@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "169694741880",
+    "project_id": "bind-51f2f",
+    "storage_bucket": "bind-51f2f.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:169694741880:android:72acd23ae808014fa3f48d",
+        "android_client_info": {
+          "package_name": "com.example.bind"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "169694741880-b5l7rd10n2jv12j38ukcjsla29ucg7a9.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAOgJDCZikT6TnD72xQVexzY36zAD0odyQ"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "169694741880-b5l7rd10n2jv12j38ukcjsla29ucg7a9.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
